@@ -4,6 +4,10 @@ body {
     background-color: #FFF;
 }
 
+h1,h2,h3,h4,h5,h6,ol,ul {
+margin: 0;    
+}
+
 
 a:hover {
     color: #404bbf;
@@ -60,8 +64,9 @@ img {
 .kalos {
     background: #2E2F42;
     display: flex;
-width: 1440px;
-height: 72px;
+    width: 1440px;
+    height: 600px;
+ 
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
@@ -109,7 +114,10 @@ li {
     font-weight: 500;
     line-height: 0.16;
     letter-spacing: 0.02em;
+    margin-left: 365px;
+    margin-right: 332px;
 }
+
 
 .header-item-2 {
     color: #2E2F42;
@@ -117,6 +125,10 @@ li {
     font-weight: 500;
     line-height: 0.16;
     letter-spacing: 0.02em;
+}
+
+.govo {
+
 }
 
 
@@ -158,11 +170,7 @@ letter-spacing: 0.02em;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    display: inline-flex;
 padding: 16px 32px;
-align-items: flex-start;
 gap: 10px;
 }
 
@@ -239,6 +247,7 @@ flex-shrink: 0;
     color: #FFF;
     text-align: left;
     width: 264px;
+    margin-left: 156px;
 }
 
 
@@ -252,3 +261,36 @@ p {
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
+
+.worker {
+    background: var(--CLOUD, #F4F4FD);
+    width: 1440px;
+height: 732px;
+flex-shrink: 0;
+}
+
+
+
+
+
+.activ {
+    display: inline-flex;
+padding-bottom: 32px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;
+border-radius: 0px 0px 4px 4px;
+background: var(--WHITE, #FFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+ section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
+
+ nav {
+    display: flex;
+ }
+
+ 
